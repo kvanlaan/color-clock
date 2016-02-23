@@ -6,6 +6,14 @@ var colorChange = document.createElement("div")
 colorChange.setAttribute("id", "colorChange")
 body.appendChild(colorChange)
 
+/// Clock
+var date = document.createElement("div")
+
+body.appendChild(date)
+
+date.setAttribute("id", "clock")
+
+
 /// Border
 
 var borderContainer = document.createElement("div")
@@ -17,15 +25,10 @@ var border = document.createElement("div")
 border.setAttribute("id", "border")
 
 var borderStyles = window.getComputedStyle(border)
+
 body.appendChild(borderContainer)
 borderContainer.appendChild(border)
 
-/// Clock
-var date = document.createElement("div")
-
-body.appendChild(date)
-
-date.setAttribute("id", "clock")
 
 
 ///Hex type Div
