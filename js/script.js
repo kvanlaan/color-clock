@@ -56,7 +56,7 @@ body.appendChild(hex)
     var secondsHex = seconds.toString(16)
     var backgroundHex = '#' + hours + minutes + seconds
     hex.textContent = backgroundHex
-    colorChange.style.background = "radial-gradient(circle, " + backgroundHex + ",rgba(0,0,0,.5))"
+    colorChange.style.background = "radial-gradient(circle," + backgroundHex + ",rgba(0,0,0,.5))"
         
 }
 
