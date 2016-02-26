@@ -56,7 +56,8 @@ body.appendChild(hex)
     var secondsHex = seconds.toString(16)
     var backgroundHex = '#' + hours + minutes + seconds
     hex.textContent = backgroundHex
-	colorChange.style.backgroundColor = backgroundHex
+    colorChange.style.background = "radial-gradient(circle, " + backgroundHex + ",rgba(0,0,0,.5))"
+        
 }
 
 
@@ -67,9 +68,9 @@ body.appendChild(hex)
 var width = border.style.width
 
 function updateTimeWidth() { 
-	var nowWidth = new Date()
-	var secondsWidth = (nowWidth.getSeconds()) * 2
-	border.style.width = secondsWidth + "px"
+    var nowWidth = new Date()
+    var secondsWidth = (nowWidth.getSeconds()) * 2
+    border.style.width = secondsWidth + "px"
 }
   
 
