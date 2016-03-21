@@ -13,6 +13,13 @@ body.appendChild(date)
 
 date.setAttribute("id", "clock")
 
+//phantom change 
+
+var changeDiv = document.createElement("div")
+
+body.appendChild(changeDiv)
+
+changeDiv.setAttribute("id", "change")
 
 /// Border
 
